@@ -14,7 +14,7 @@ module Spree
       if (item_total >= self.preferred_lower_boundry && item_total <= self.preferred_upper_boundry)
         return self.preferred_amount
       else
-        nil
+        0
       end
     end
   end
